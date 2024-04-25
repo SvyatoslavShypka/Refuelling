@@ -30,7 +30,7 @@ class Refueling_g2 {
 
 //               Czy istnieje możliwość podróży między miastami i i j (czy starczy paliwa)?
                 if(fuel[i][j] >= 0 || fuel[j][i] >= 0)
-                    maxCities = Math.max(maxCities, j - i + 1); // ilość odwiedzonych miast plus miasto z którego wyszlismy
+                    maxCities = Math.max(maxCities, j - i + 1); // ilość odwiedzonych miast plus miasto z którego wyszliśmy
             }
         }
         return maxCities;

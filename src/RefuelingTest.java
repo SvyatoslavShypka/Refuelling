@@ -31,6 +31,10 @@ public class RefuelingTest{
                 459,467,472,474,484,490,493,498,505,513,521,527,531,535,537,542,546};
         int result4 = refueling.solution(A4, X4);
         System.out.println("Test case 4: " + result4); // prawidlowy wynik 87
+
+//        Detected time complexity:
+//        O(N**2) or O(N**2*log(N))
+        
     }
 
 }
