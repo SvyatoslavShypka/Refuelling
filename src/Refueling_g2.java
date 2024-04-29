@@ -14,6 +14,7 @@ class Refueling_g2 {
     public int solution(int[] A, int[] X) {
         int maxCities = 1; // maksymalna liczba roznych miast, ktore mozemy odwiedzic ustawiamy na 1 bo zawsze min. 1 odwiedzimy
         int n = A.length;
+
         fuel = new int[n][n];
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++)
